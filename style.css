@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY STYLING */
+body {
+    font-family: roboto;
+}
+
+/* HEADER STYLING */
+.nav {
+    padding: 20px 150px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* HERO STYLING */
+.hero {
+    background-color: #1f2937;
+    padding: 100px 150px;
+    display: flex;
+    gap: 25px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 35px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+}
+
+/* INFO SECTION STYLING */
+.info-section {
+    background-color: white;
+    padding: 0 250px 100px;
+}
+
+.info-section h2 {
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-group {
+    text-align: center;
+}
+
+.info-box {
+    border-radius: 25px;
+    border: solid 4px #2c78f5;
+    padding: 75px;
+}
+
+.info-text {
+    padding-top: 10px;
+}
+
+/* QUOTE STYLING */
+.quote-block {
+    background-color: #e5e7eb;
+    padding: 100px 260px;
+}
+
+.quote-block .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-block .author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+/* CTA STYLING */
+.action-call {
+    padding: 100px 150px;
+}
+
+.action-box {
+    border-radius: 10px;
+    padding: 40px 100px;
+    background-color: #3b82f6;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text {
+    color: white;
+}
+
+.action-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.action-button {
+    padding-bottom: 10px;
+}
+
+.action-button button {
+    text-align: center;
+    border: 1px solid white;
+    padding: 3px 30px;
+}
+
+/* FOOTER STYLING */
+.footer {
+    background-color: #1f2937;
+    padding: 35px;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+}
